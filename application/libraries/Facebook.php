@@ -41,9 +41,6 @@
 		{
 			$this->ci =& get_instance();
 
-			if ( $this->ci->ion_auth->logged_in() )
-				show_404();
-
 			$this->ci->load->config( 'facebook', TRUE );
 
 			$this->app_id           = $this->ci->config->item( 'app_id', 'facebook' );
