@@ -13,7 +13,7 @@ composer require facebook/php-sdk-v4
 
 > **NOTICE:** This version of the Facebook SDK for PHP requires PHP 5.4 or greater.
 
-First go to /application/config/ and edit facebook.php
+First edit [facebook.php][FACEBOOK CONFIG]
 
 ```php
 $config[ 'app_id' ] = '';
@@ -31,6 +31,11 @@ $config[ 'default_facebook_password' ] = '';
 ```
 > insert DEFAULT_FACEBOOK_PASSWORD
 > **NOTICE:**  when you first time setup the password do not change it
+
+```php
+$config[ 'composer_autoload' ] = TRUE;
+```
+> **DON'T FORGET** to enable Composer autoload in config.php
 
 ## Usage
 > Soon description and example files
@@ -64,4 +69,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[CONFIG]: https://github.com/puneetkay/Facebook-PHP-CodeIgniter/blob/master/config/facebook.php
+[FACEBOOK CONFIG]: https://github.com/designia/facebook-login-codeigniter-with-ion-auth/blob/master/application/config/facebook.php
+[FACEBOOK LIBRARY]: https://github.com/designia/facebook-login-codeigniter-with-ion-auth/blob/master/application/libraries/Facebook.php
