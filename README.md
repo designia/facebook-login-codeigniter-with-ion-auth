@@ -1,8 +1,16 @@
-Facebook Login for Codeigniter with Ben Edmunds Ion Auth
+Facebook Login for Codeigniter with Ion Auth
 ========================================================
 
-> This library is based on Facebook SDK for PHP (v5)
+> This library is based on:
+
+> Facebook SDK for PHP (v5)
 > https://github.com/facebook/facebook-php-sdk-v4
+
+> Ben Edmunds Ion Auth 2
+> https://github.com/benedmunds/CodeIgniter-Ion-Auth
+
+> CodeIgniter 3
+> https://github.com/bcit-ci/CodeIgniter
 
 ## Setup
 Install Facebook SDK for PHP with [Composer](https://getcomposer.org/). Run this command:
